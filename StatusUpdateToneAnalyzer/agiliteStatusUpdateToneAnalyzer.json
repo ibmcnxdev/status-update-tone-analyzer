@@ -6,7 +6,10 @@
       "payload": {
         "match": {
           "url": "homepage|communities"
-        },        
+        },
+        "include-repo": {
+          "name": "status-update-tone-analyzer"
+         },
         "include-files": [
           "StatusUpdateToneAnalyzer/agiliteCore.js",
           "StatusUpdateToneAnalyzer/agiliteStatusUpdateToneAnalyzer.js"
